@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:fillViewport="true"
+tools:context=".Admin_add_product">
+
+<ImageView
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitXY"
+    android:src="@drawable/background2"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+<TextView
+    android:id="@+id/titledesc"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="80sp"
+    android:fontFamily="@font/roboto"
+    android:text="Add new product"
+    android:textColor="@color/titlecolor"
+    android:textSize="20sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    />
+
+<EditText
+    android:id="@+id/inputproductTtile"
+    android:layout_width="300dp"
+    android:layout_height="50sp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/costum_input"
+
+    android:drawablePadding="10sp"
+    android:hint="Product Name"
+    android:inputType="text"
+    android:paddingLeft="15sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/titledesc" />
+
+<EditText
+    android:id="@+id/inputproductcategorie"
+    android:layout_width="300dp"
+    android:layout_height="50sp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/costum_input"
+
+    android:drawablePadding="10sp"
+    android:hint="Categorie"
+    android:inputType="textEmailAddress"
+    android:paddingLeft="15sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/inputproductTtile" />
+
+
+<EditText
+    android:id="@+id/inputproductprice"
+    android:layout_width="300dp"
+    android:layout_height="50sp"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/costum_input"
+
+    android:drawablePadding="10sp"
+    android:hint="Price"
+    android:inputType="textPassword"
+    android:paddingLeft="15sp"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/inputproductcategorie" />
+
+
+<Button
+    android:id="@+id/btn_add_product"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="20sp"
+    android:background="@drawable/button"
+    android:text="add product"
+    app:backgroundTint="@null"
+
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/inputproductprice" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

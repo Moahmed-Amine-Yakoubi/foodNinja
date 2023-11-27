@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Athentification">
+    <ImageView
+        android:id="@+id/backgroundvector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/greenbackground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180sp"
+        android:layout_height="180sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120sp"
+        android:background="@drawable/costum_circle_background"
+        android:src="@drawable/baseline_person_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        android:fontFamily="@font/roboto"
+        android:text="sdf"
+        android:textColor="@color/titlecolor"
+        android:textSize="20sp"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="sdf"
+        android:textColor="@color/textbarcolor"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+
+
+
+    <Button
+        android:id="@+id/btnAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/robotomedium"
+        android:text="My Account"
+        android:drawableLeft="@drawable/baseline_person_search_24"
+        android:textColor="@color/textbarcolor"
+        android:textSize="15sp"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email" />
+    <Button
+        android:id="@+id/btnLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/robotomedium"
+        android:text="Location"
+        android:textColor="@color/textbarcolor"
+        android:drawableLeft="@drawable/location"
+        android:textSize="15sp"
+        android:backgroundTint="@color/transparent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAccount" />
+
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="90sp"
+        android:fontFamily="@font/robotomedium"
+        android:text="Logout"
+
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:backgroundTint="@color/statusbar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLocation" />
+</androidx.constraintlayout.widget.ConstraintLayout>

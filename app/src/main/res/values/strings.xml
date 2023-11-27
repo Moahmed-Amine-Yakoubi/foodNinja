@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">food Ninja</string>
+    <string name="descriptiontext">Login To Your Acount</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="titledesc2">Or Continue With</string>
+    <string name="forgetmdp">Forget Your Password ?</string>
+    <string name="SignUp"><u>Sign Up</u></string>
+    <string name="SignUpTtile">Sign Up For Free</string>All Ready Have Acount
+    <string name="alracount"><u>All Ready Have Acount</u></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

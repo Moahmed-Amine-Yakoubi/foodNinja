@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "471491266007",
+    "project_id": "ninja-food-cdb5b",
+    "storage_bucket": "ninja-food-cdb5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471491266007:android:7d8d9eb12efe31b9d67792",
+        "android_client_info": {
+          "package_name": "com.example.foodninja"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgleTq0uyFsBYKqzDn3EElCpZqjFW1FFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

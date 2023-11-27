@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="layoutbackground">#F8F8FE</color>
+    <color name="titlecolor">#09051C</color>
+    <color name="statusbar">#53E88B</color>
+    <color name="subtitle">#29BD61</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="backgroundcolor">#FDFDFF</color>
+    <color name="textbarcolor">#656565</color>
+    <color name="iconcolor">#90DFB4</color>
+    <color name="search_view">#FEF6ED</color>
+    <color name="btn_transp">#FF7C32</color>
+
+</resources>
